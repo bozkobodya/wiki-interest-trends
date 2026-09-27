@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Legacy shortcut; the real entry point is `node scripts/wt.js` (works on macOS, Linux and Windows).
+exec node "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/wt.js" "$@"

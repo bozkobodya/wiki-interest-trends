@@ -1,0 +1,22 @@
+{
+  "name": "wiki-interest-trends",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Agent Skill: Wikipedia page-view interest analysis, charts and one-page PDF reports",
+  "type": "module",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "bin": {
+    "wt": "scripts/wt.js"
+  },
+  "scripts": {
+    "test": "node --disable-warning=ExperimentalWarning --test tests/*.test.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dejavu-fonts-ttf": "2.37.3",
+    "pdfkit": "0.20.2",
+    "svg-to-pdfkit": "0.1.8"
+  }
+}
